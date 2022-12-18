@@ -1,0 +1,1 @@
+wget https://github.com/s4mpx1001/s4mpx_modificable/archive/refs/heads/main.zip && unzip main.zip && cd s4mpx_modificable-main && chmod 777 s4mpx_modificable.sh && ./s4mpx_modificable.sh
