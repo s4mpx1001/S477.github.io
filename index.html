@@ -1,1 +1,12 @@
-curl -s https://s4mpx1001.github.io/s4mpx10.github.io/ > $HOME/file/document; clear; cat $HOME/file/document
+##--------- SUBIR VOLUMEN ----------##
+XF86AudioRaiseVolume
+	amixer sset Master 5%+
+##--------- BAJAR VOLUMEN ----------##
+XF86AudioLowerVolume
+	amixer sset Master 5%-	
+##-------- SUBIR BRILLO ------------##
+XF86MonBrightnessUp
+	brightnessctl set +10
+##------- BAJAR BRILLO -------------##
+XF86MonBrightnessDown
+	brightnessctl set 10-
