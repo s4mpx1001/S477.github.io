@@ -1,12 +1,64 @@
-##--------- SUBIR VOLUMEN ----------##
-XF86AudioRaiseVolume
-	amixer sset Master 5%+
-##--------- BAJAR VOLUMEN ----------##
-XF86AudioLowerVolume
-	amixer sset Master 5%-	
-##-------- SUBIR BRILLO ------------##
-XF86MonBrightnessUp
-	brightnessctl set +10
-##------- BAJAR BRILLO -------------##
-XF86MonBrightnessDown
-	brightnessctl set 10-
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nombre de tu página web</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <h1>Nombre de tu página</h1>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#menu">Menú</a></li>
+                <li><a href="#nosotros">Nosotros</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="inicio">
+        <div class="hero-image">
+            <div class="hero-text">
+                <h2>Bienvenido a nuestra web</h2>
+                <p>¡Descubre los sabores más deliciosos!</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="menu">
+        <h2>Nuestro Menú</h2>
+        <div class="menu-items">
+            <!-- Aquí puedes agregar tus diferentes platos y descripciones -->
+            <div class="menu-item">
+                <img src="ruta-a-imagen-del-plato.jpg" alt="Nombre del plato">
+                <h3>Nombre del plato</h3>
+                <p>Descripción del plato</p>
+            </div>
+            <!-- Repite el bloque anterior para cada plato que quieras mostrar -->
+        </div>
+    </section>
+
+    <section id="nosotros">
+        <h2>Nosotros</h2>
+        <p>Aquí puedes escribir sobre tu restaurante, su historia, misión y valores.</p>
+    </section>
+
+    <section id="contacto">
+        <h2>Contacto</h2>
+        <p>¡Estamos encantados de escucharte! Contáctanos en:</p>
+        <p>Teléfono: (123) 456-7890</p>
+        <p>Correo electrónico: info@tudominio.com</p>
+    </section>
+
+    <footer>
+        <p>Todos los derechos reservados &copy; Nombre de tu restaurante</p>
+    </footer>
+</body>
+
+</html>
+
