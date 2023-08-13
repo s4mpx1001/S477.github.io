@@ -15,6 +15,7 @@ body {
     top: 10px; /* Ajusta el valor para el margen superior */
     left: 10px; /* Ajusta el valor para el margen izquierdo */
     width: 50px; /* Ajusta el tamaño según tus necesidades */
+    border-radius: 50%; 
     height: auto;
 }
 
