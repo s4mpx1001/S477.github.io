@@ -9,14 +9,15 @@ body {
     padding: 0;
 }
 
+
 .logo {
     position: absolute;
-    top: 0;
-    left: 0;
-    width: 100px; /* Ajusta el tamaño según tus necesidades */
+    top: 10px; /* Ajusta el valor para el margen superior */
+    left: 10px; /* Ajusta el valor para el margen izquierdo */
+    width: 50px; /* Ajusta el tamaño según tus necesidades */
     height: auto;
-    margin: 10px; /* Añade un margen para separar el logo del borde de la página */
 }
+
 header {
     background-color: #f9c74f;
     padding: 20px;
